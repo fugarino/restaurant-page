@@ -1,0 +1,24 @@
+.nav {
+  height: 5rem;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 2rem;
+  align-items: flex-end;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home,
+.menu,
+.contact {
+  color: rgb(161, 186, 209);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.home:hover,
+.menu:hover,
+.contact:hover {
+  border-bottom: 2px solid rgb(161, 186, 209);
+}
