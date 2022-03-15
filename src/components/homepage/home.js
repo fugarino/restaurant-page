@@ -1,5 +1,5 @@
 import "./home.styles.css";
-import DumplingImg from "./dumplings.jpg";
+import DumplingImg from "./dumplings-transparent copy.jpg";
 
 function home() {
   // Homepage
@@ -19,7 +19,7 @@ function home() {
   // Hero Text
   const heroText = document.createElement("h1");
   heroText.classList.add("hero-text");
-  heroText.textContent = "Pop Up Restaurant In NY";
+  heroText.textContent = "レストラン";
   hero.appendChild(heroText);
 
   return homepage;
